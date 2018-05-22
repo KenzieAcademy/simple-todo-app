@@ -15,19 +15,19 @@ To get started, _fork_ this repository into your own GitHub account then clone
 this repository to your local machine:
 
 ```console
-~/projects $ git clone git@github.com:<your-user-name>/simple-todo-app
-~/projects $ cd simple-todo-app
-~/projects/simple-todo-app $
+foo@bar:~ $ git clone git@github.com:github-username/simple-todo-app
+foo@bar:~ $ cd simple-todo-app
+foo@bar:~/simple-todo-app $
 ```
 
-Note `<your-user-name>` above. In other words, *don't* simply copy-paste the
+Note `github-username` above. In other words, *don't* simply copy-paste the
 code above blindly into a terminal. 
 
 Once you have this code on your machine, you'll need to install project
 dependencies:
 
 ```console
-~/projects/simple-todo-app $ yarn
+foo@bar:~/simple-todo-app $ yarn
 ```
 
 Note the use of [yarn](https://yarnpkg.com/en/) here, which you should have
