@@ -35,6 +35,13 @@ installed previously. While `npm` would have worked (e.g., `npm install`),
 `yarn` caches dependencies between projects, which should make installation of
 said dependencies happen faster.
 
+Finally, you can start the scaffold application, which should open a browser
+window for you automatically:
+
+```console
+foo@bar:~/simple-todo-app $ yarn start
+```
+
 ## Acceptance Criteria
 
 To do: Write acceptance criteria
